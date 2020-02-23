@@ -1,4 +1,4 @@
-katz_deli = []
+#katz_deli = []
   def line(other_deli)
     other_deli = []
     if katz_deli.length < 1
@@ -8,4 +8,3 @@ katz_deli = []
     end
   end
   
-  line(katz_deli)
