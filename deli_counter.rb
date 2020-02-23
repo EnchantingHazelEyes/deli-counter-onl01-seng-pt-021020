@@ -10,3 +10,5 @@ katz_deli = []
       end
   end
   
+  line(katz_deli)
+  
