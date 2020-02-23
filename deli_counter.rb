@@ -7,4 +7,5 @@ katz_deli = []
       katz_deli.each_with_index(1) {|customer,number| other_deli << "The line is currently: #{number}. #{customer}"}
     end
   end
-    
+  
+  line(katz_deli)
