@@ -6,7 +6,7 @@ katz_deli = []
     else
       message = "The line is currently: "
       
-       katz_deli.each_with_index{|customer,number| other_deli << "#{number}. #{customer}"}
+       katz_deli.each_with_index{|customer,number| message += "#{number}. #{customer}"}
       end
   end
   
