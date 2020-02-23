@@ -8,6 +8,7 @@ katz_deli = []
       
        katz_deli.each_with_index{|customer,number| message += "#{number}. #{customer}"}
       end
+      puts message
   end
   
   
