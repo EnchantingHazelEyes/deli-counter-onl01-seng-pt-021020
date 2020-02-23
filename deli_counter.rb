@@ -1,6 +1,5 @@
 katz_deli = []
   def line(other_deli)
-    other_deli = []
     if katz_deli.size < 1
       puts "The line is currently empty."
     elsif katz_deli.size >=1 
